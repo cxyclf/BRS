@@ -8,7 +8,7 @@ Enter: City road network, the location of each bus stop on the road network.
 Output: $E$
 Let A= urban road network and $E$= empty set
 For each bus stop s:
-If it is in the middle of road ($u,v$), then remove road ($u,v$) from A and add two roads ($u$,$s_1$),($s_2$,$v$) to $A$, where $s_1$, $s_2$ both represent $s$;
+If it is in the middle of road ($u,v$), then remove road ($u,v$) from A and add two roads ($u,s_1$),($s_2,v$) to $A$, where $s_1$, $s_2$ both represent $s$;
 If s is at a vertex u, then:
 Note k of all connected edges of u: {($u,v_i$):1≤i≤k}, remove these roads from $A$;
 And add {($s_i,v_i$):1≤i≤k} this k path to $A$, where $s_i$ is $k$ vertices but all represent $s$;
