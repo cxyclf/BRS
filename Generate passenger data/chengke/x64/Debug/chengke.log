@@ -1,0 +1,53 @@
+﻿  chengke.cpp
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\Graph.h(60,24): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“chengke.cpp”)
+  
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\Graph.h(81,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“chengke.cpp”)
+  
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\Graph.h(198,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“chengke.cpp”)
+  
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\Graph.h(227,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“chengke.cpp”)
+  
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\Graph.h(380,28): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“chengke.cpp”)
+  
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\Graph.h(444,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“chengke.cpp”)
+  
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\Graph.h(473,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“chengke.cpp”)
+  
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\Graph.h(479,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“chengke.cpp”)
+  
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\Graph.h(591,33): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“chengke.cpp”)
+  
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\Graph.h(653,33): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“chengke.cpp”)
+  
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\lca.h(48,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“chengke.cpp”)
+  
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\lca.h(65,9): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“chengke.cpp”)
+  
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(30,19): warning C4244: “初始化”: 从“const _Ty”转换到“int”，可能丢失数据
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(30,19): warning C4244:         with
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(30,19): warning C4244:         [
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(30,19): warning C4244:             _Ty=double
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(30,19): warning C4244:         ]
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(86,23): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(155,27): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(155,27): warning C4244:         with
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(155,27): warning C4244:         [
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(155,27): warning C4244:             _Ty=double
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(155,27): warning C4244:         ]
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(180,56): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(181,56): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(202,48): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\chengke.cpp(203,48): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  chengke.vcxproj -> C:\Users\Administrator.DESKTOP-TMB4DTL\Desktop\智能公交车\随机生成乘客\chengke\chengke\x64\Debug\chengke.exe
