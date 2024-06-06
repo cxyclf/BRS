@@ -21,14 +21,8 @@
 using namespace std;
 
 
-
-
-// ¼ÇÂ¼Ö´ĞĞÊ±¼äµ½ÎÄ¼ş
 void recordExecutionTimeToFile(const std::chrono::steady_clock::time_point& start, const std::chrono::steady_clock::time_point& end, const std::string& description, std::ofstream& outputFile) {
-    // ¼ÆËãÊ±¼ä²î
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
-
-    // ½«ÃèÊö×Ö·û´®¡¢Ö´ĞĞÊ±¼äºÍµ¥Î»Ğ´ÈëÎÄ¼ş
     outputFile << description << ": " << duration.count() << " milliseconds" << std::endl;
 }
 
@@ -45,13 +39,10 @@ std::unordered_map<int, std::vector<int>> remove_passengers_and_empty_buses(
         const std::vector<int>& passengers = entry.second;
 
         std::vector<int> filtered_passengers;
-        // ¹ıÂËµôÒÑ¾­´æÔÚÓÚpassenger_idsÖĞµÄ³Ë¿Í
         std::copy_if(passengers.begin(), passengers.end(), std::back_inserter(filtered_passengers),
                      [&passenger_ids](int passenger_id) {
                          return passenger_ids.find(passenger_id) == passenger_ids.end();
                      });
-
-        // Ö»ÓĞÔÚ¹ıÂËºóµÄ³Ë¿ÍÁĞ±í²»Îª¿ÕÊ±²ÅÌí¼Óµ½ĞÂµÄÍ¼ÖĞ
         if (!filtered_passengers.empty()) {
             new_graph[bus_id] = std::move(filtered_passengers);
         }
@@ -98,7 +89,7 @@ int main() {
 
         vector<passenger> current_passenger_list;
         if (!not_served_passenger_list.empty()) {
-            outputFile << "Number of passengers not served£º" << not_served_passenger_list.size() << endl;
+            outputFile << "Number of passengers not servedï¼š" << not_served_passenger_list.size() << endl;
             copy_if(not_served_passenger_list.begin(), not_served_passenger_list.end(), std::back_inserter(current_passenger_list), [&](const passenger& passenger) {
                 time_t x = currentTimestamp - TIME_LAG;
                 return passenger.publish_time <= currentTimestamp && passenger.publish_time > x;
@@ -117,7 +108,7 @@ int main() {
            
         }
         
-        outputFile << "number of passenger orders taken£º" << current_passenger_list.size() << endl;  
+        outputFile << "number of passenger orders takenï¼š" << current_passenger_list.size() << endl;  
         int current_served_passengers_count=0;
         for(auto p:current_passenger_list){
         	current_served_passengers_count=current_served_passengers_count+p.passenger_count;
@@ -294,7 +285,6 @@ int main() {
     auto duration_main = std::chrono::duration_cast<std::chrono::milliseconds>(end_main - start_main);
     outputFile << "Total execution time: " << duration_main.count() << " milliseconds" << std::endl;
     
-    // ¹Ø±ÕCSVÎÄ¼ş
     outputFile.close();
     
 
